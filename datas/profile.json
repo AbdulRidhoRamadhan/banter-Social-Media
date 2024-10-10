@@ -1,13 +1,49 @@
-[
-    { "id": 1, "username": "alice", "password": "hash1", "follower": 100, "following": 150 },
-    { "id": 2, "username": "bob", "password": "hash2", "follower": 200, "following": 180 },
-    { "id": 3, "username": "charlie", "password": "hash3", "follower": 300, "following": 50 },
-    { "id": 4, "username": "david", "password": "hash4", "follower": 150, "following": 250 },
-    { "id": 5, "username": "eve", "password": "hash5", "follower": 400, "following": 200 },
-    { "id": 6, "username": "frank", "password": "hash6", "follower": 180, "following": 100 },
-    { "id": 7, "username": "grace", "password": "hash7", "follower": 220, "following": 140 },
-    { "id": 8, "username": "heidi", "password": "hash8", "follower": 310, "following": 160 },
-    { "id": 9, "username": "ivan", "password": "hash9", "follower": 500, "following": 320 },
-    { "id": 10, "username": "judy", "password": "hash10", "follower": 400, "following": 280 }
+{
+  "Profiles": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "$2b$10$D9m.eXUt1bxa1sdZjz6RkuOq5DUG5aV0p0/hssTb/hsmgKmGgH12K",
+      "gender": "Male",
+      "birthDay": "1990-01-15",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "$2b$10$zoi5DmVk1UY1JgdEToWr0.XF6OFTnfnmMdaHkf97fsFPL.JmWZt6m",
+      "gender": "Female",
+      "birthDay": "1995-05-22",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "username": "alice_walker",
+      "email": "alice@example.com",
+      "password": "$2b$10$.x.ZP.QFnHjwLZTK/03xlupqG7f1sEqn4tVZR9THpqr9Smc",
+      "gender": "Female",
+      "birthDay": "1992-09-12",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "username": "bob_brown",
+      "email": "bob@example.com",
+      "password": "$2b$10$9Dz7Y6fHkJsdfJ12SkdjwSDFjkJKfslKzqwkSP4swPjq",
+      "gender": "Male",
+      "birthDay": "1988-11-23",
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "username": "charlie_davis",
+      "email": "charlie@example.com",
+      "password": "$2b$10$Ql5JksZj51sdDsd5Ks5w6Msdk6PkwSFs",
+      "gender": "Male",
+      "birthDay": "1993-07-04",
+      "userId": 5
+    }
   ]
-  
+}

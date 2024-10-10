@@ -1,13 +1,29 @@
-[
-    { "id": 1, "username": "alice", "password": "hash1", "role": "admin", "profileId": 1 },
-    { "id": 2, "username": "bob", "password": "hash2", "role": "user", "profileId": 2 },
-    { "id": 3, "username": "charlie", "password": "hash3", "role": "user", "profileId": 3 },
-    { "id": 4, "username": "david", "password": "hash4", "role": "moderator", "profileId": 4 },
-    { "id": 5, "username": "eve", "password": "hash5", "role": "user", "profileId": 5 },
-    { "id": 6, "username": "frank", "password": "hash6", "role": "user", "profileId": 6 },
-    { "id": 7, "username": "grace", "password": "hash7", "role": "admin", "profileId": 7 },
-    { "id": 8, "username": "heidi", "password": "hash8", "role": "user", "profileId": 8 },
-    { "id": 9, "username": "ivan", "password": "hash9", "role": "moderator", "profileId": 9 },
-    { "id": 10, "username": "judy", "password": "hash10", "role": "user", "profileId": 10 }
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "$2b$10$D9m.eXUt1bxa1sdZjz6RkuOq5DUG5aV0p0/hssTb/hsmgKmGgH12K"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "password": "$2b$10$zoi5DmVk1UY1JgdEToWr0.XF6OFTnfnmMdaHkf97fsFPL.JmWZt6m"
+    },
+    {
+      "id": 3,
+      "username": "alice_walker",
+      "password": "$2b$10$.x.ZP.QFnHjwLZTK/03xlupqG7f1sEqn4tVZR9THpqr9Smc"
+    },
+    {
+      "id": 4,
+      "username": "bob_brown",
+      "password": "$2b$10$9Dz7Y6fHkJsdfJ12SkdjwSDFjkJKfslKzqwkSP4swPjq"
+    },
+    {
+      "id": 5,
+      "username": "charlie_davis",
+      "password": "$2b$10$Ql5JksZj51sdDsd5Ks5w6Msdk6PkwSFs"
+    }
   ]
-  
+}

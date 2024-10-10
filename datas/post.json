@@ -1,13 +1,59 @@
-[
-    { "id": 1, "title": "First Post", "content": "This is the first post", "imageURL": "http://example.com/img1.jpg", "createdAt": "2024-10-01", "updatedAt": "2024-10-02", "userId": 1, "like": 15, "comment": "Great post!" },
-    { "id": 2, "title": "Second Post", "content": "This is the second post", "imageURL": "http://example.com/img2.jpg", "createdAt": "2024-10-03", "updatedAt": "2024-10-04", "userId": 2, "like": 25, "comment": "Nice!" },
-    { "id": 3, "title": "Third Post", "content": "This is the third post", "imageURL": "http://example.com/img3.jpg", "createdAt": "2024-10-05", "updatedAt": "2024-10-06", "userId": 3, "like": 30, "comment": "Well done!" },
-    { "id": 4, "title": "Fourth Post", "content": "This is the fourth post", "imageURL": "http://example.com/img4.jpg", "createdAt": "2024-10-07", "updatedAt": "2024-10-08", "userId": 4, "like": 50, "comment": "Amazing content!" },
-    { "id": 5, "title": "Fifth Post", "content": "This is the fifth post", "imageURL": "http://example.com/img5.jpg", "createdAt": "2024-10-09", "updatedAt": "2024-10-09", "userId": 5, "like": 75, "comment": "Loved it!" },
-    { "id": 6, "title": "Sixth Post", "content": "This is the sixth post", "imageURL": "http://example.com/img6.jpg", "createdAt": "2024-10-10", "updatedAt": "2024-10-11", "userId": 6, "like": 20, "comment": "Interesting!" },
-    { "id": 7, "title": "Seventh Post", "content": "This is the seventh post", "imageURL": "http://example.com/img7.jpg", "createdAt": "2024-10-12", "updatedAt": "2024-10-13", "userId": 7, "like": 60, "comment": "Very informative!" },
-    { "id": 8, "title": "Eighth Post", "content": "This is the eighth post", "imageURL": "http://example.com/img8.jpg", "createdAt": "2024-10-14", "updatedAt": "2024-10-15", "userId": 8, "like": 90, "comment": "Fantastic!" },
-    { "id": 9, "title": "Ninth Post", "content": "This is the ninth post", "imageURL": "http://example.com/img9.jpg", "createdAt": "2024-10-16", "updatedAt": "2024-10-17", "userId": 9, "like": 35, "comment": "Great job!" },
-    { "id": 10, "title": "Tenth Post", "content": "This is the tenth post", "imageURL": "http://example.com/img10.jpg", "createdAt": "2024-10-18", "updatedAt": "2024-10-19", "userId": 10, "like": 120, "comment": "Incredible!" }
+{
+  "Posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "content": "This is the first post on .banter!",
+      "imageURL": "https://example.com/images/firstpost.jpg",
+      "createdAt": "2024-10-01",
+      "updatedAt": "2024-10-02",
+      "userId": 1,
+      "like": 10,
+      "comment": "Great post!"
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "content": "This is another post on .banter",
+      "imageURL": "https://example.com/images/secondpost.jpg",
+      "createdAt": "2024-10-05",
+      "updatedAt": "2024-10-06",
+      "userId": 2,
+      "like": 5,
+      "comment": "Nice one!"
+    },
+    {
+      "id": 3,
+      "title": "Third Post",
+      "content": "Having fun using .banter!",
+      "imageURL": "https://example.com/images/thirdpost.jpg",
+      "createdAt": "2024-10-07",
+      "updatedAt": "2024-10-08",
+      "userId": 3,
+      "like": 15,
+      "comment": "Looks good!"
+    },
+    {
+      "id": 4,
+      "title": "Latest Features",
+      "content": "Check out the new features of .banter.",
+      "imageURL": "https://example.com/images/featurespost.jpg",
+      "createdAt": "2024-10-09",
+      "updatedAt": "2024-10-10",
+      "userId": 4,
+      "like": 20,
+      "comment": "Exciting!"
+    },
+    {
+      "id": 5,
+      "title": "User Tips",
+      "content": "Here are some tips for getting the most out of .banter.",
+      "imageURL": "https://example.com/images/tipspost.jpg",
+      "createdAt": "2024-10-09",
+      "updatedAt": "2024-10-10",
+      "userId": 5,
+      "like": 25,
+      "comment": "Thanks for the tips!"
+    }
   ]
-  
+}
