@@ -1,59 +1,57 @@
-{
-  "Posts": [
-    {
-      "id": 1,
-      "title": "First Post",
-      "content": "This is the first post on .banter!",
-      "imageURL": "https://example.com/images/firstpost.jpg",
-      "createdAt": "2024-10-01",
-      "updatedAt": "2024-10-02",
-      "userId": 1,
-      "like": 10,
-      "comment": "Great post!"
-    },
-    {
-      "id": 2,
-      "title": "Second Post",
-      "content": "This is another post on .banter",
-      "imageURL": "https://example.com/images/secondpost.jpg",
-      "createdAt": "2024-10-05",
-      "updatedAt": "2024-10-06",
-      "userId": 2,
-      "like": 5,
-      "comment": "Nice one!"
-    },
-    {
-      "id": 3,
-      "title": "Third Post",
-      "content": "Having fun using .banter!",
-      "imageURL": "https://example.com/images/thirdpost.jpg",
-      "createdAt": "2024-10-07",
-      "updatedAt": "2024-10-08",
-      "userId": 3,
-      "like": 15,
-      "comment": "Looks good!"
-    },
-    {
-      "id": 4,
-      "title": "Latest Features",
-      "content": "Check out the new features of .banter.",
-      "imageURL": "https://example.com/images/featurespost.jpg",
-      "createdAt": "2024-10-09",
-      "updatedAt": "2024-10-10",
-      "userId": 4,
-      "like": 20,
-      "comment": "Exciting!"
-    },
-    {
-      "id": 5,
-      "title": "User Tips",
-      "content": "Here are some tips for getting the most out of .banter.",
-      "imageURL": "https://example.com/images/tipspost.jpg",
-      "createdAt": "2024-10-09",
-      "updatedAt": "2024-10-10",
-      "userId": 5,
-      "like": 25,
-      "comment": "Thanks for the tips!"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "First Post",
+    "content": "This is the first post on .banter!",
+    "imageURL": "https://example.com/images/firstpost.jpg",
+    "createdAt": "2024-10-01",
+    "updatedAt": "2024-10-02",
+    "userId": 1,
+    "like": 10,
+    "comment": "Great post!"
+  },
+  {
+    "id": 2,
+    "title": "Second Post",
+    "content": "This is another post on .banter",
+    "imageURL": "https://example.com/images/secondpost.jpg",
+    "createdAt": "2024-10-05",
+    "updatedAt": "2024-10-06",
+    "userId": 2,
+    "like": 5,
+    "comment": "Nice one!"
+  },
+  {
+    "id": 3,
+    "title": "Third Post",
+    "content": "Having fun using .banter!",
+    "imageURL": "https://example.com/images/thirdpost.jpg",
+    "createdAt": "2024-10-07",
+    "updatedAt": "2024-10-08",
+    "userId": 3,
+    "like": 15,
+    "comment": "Looks good!"
+  },
+  {
+    "id": 4,
+    "title": "Latest Features",
+    "content": "Check out the new features of .banter.",
+    "imageURL": "https://example.com/images/featurespost.jpg",
+    "createdAt": "2024-10-09",
+    "updatedAt": "2024-10-10",
+    "userId": 4,
+    "like": 20,
+    "comment": "Exciting!"
+  },
+  {
+    "id": 5,
+    "title": "User Tips",
+    "content": "Here are some tips for getting the most out of .banter.",
+    "imageURL": "https://example.com/images/tipspost.jpg",
+    "createdAt": "2024-10-09",
+    "updatedAt": "2024-10-10",
+    "userId": 5,
+    "like": 25,
+    "comment": "Thanks for the tips!"
+  }
+]
