@@ -6,7 +6,11 @@
     "imageURL": "https://example.com/images/firstpost.jpg",
     "createdAt": "2024-10-01",
     "updatedAt": "2024-10-02",
+<<<<<<< HEAD
     "userId": 1,
+=======
+    "UserId": 1,
+>>>>>>> d2ec15cbb66bd7e418dfc01314b9fe1fac34b7f1
     "like": 10,
     "comment": "Great post!"
   },
@@ -17,7 +21,11 @@
     "imageURL": "https://example.com/images/secondpost.jpg",
     "createdAt": "2024-10-05",
     "updatedAt": "2024-10-06",
+<<<<<<< HEAD
     "userId": 2,
+=======
+    "UserId": 2,
+>>>>>>> d2ec15cbb66bd7e418dfc01314b9fe1fac34b7f1
     "like": 5,
     "comment": "Nice one!"
   },
@@ -28,7 +36,11 @@
     "imageURL": "https://example.com/images/thirdpost.jpg",
     "createdAt": "2024-10-07",
     "updatedAt": "2024-10-08",
+<<<<<<< HEAD
     "userId": 3,
+=======
+    "UserId": 3,
+>>>>>>> d2ec15cbb66bd7e418dfc01314b9fe1fac34b7f1
     "like": 15,
     "comment": "Looks good!"
   },
@@ -39,7 +51,11 @@
     "imageURL": "https://example.com/images/featurespost.jpg",
     "createdAt": "2024-10-09",
     "updatedAt": "2024-10-10",
+<<<<<<< HEAD
     "userId": 4,
+=======
+    "UserId": 4,
+>>>>>>> d2ec15cbb66bd7e418dfc01314b9fe1fac34b7f1
     "like": 20,
     "comment": "Exciting!"
   },
@@ -50,8 +66,16 @@
     "imageURL": "https://example.com/images/tipspost.jpg",
     "createdAt": "2024-10-09",
     "updatedAt": "2024-10-10",
+<<<<<<< HEAD
     "userId": 5,
     "like": 25,
     "comment": "Thanks for the tips!"
   }
 ]
+=======
+    "UserId": 5,
+    "like": 25,
+    "comment": "Thanks for the tips!"
+  }
+]
+>>>>>>> d2ec15cbb66bd7e418dfc01314b9fe1fac34b7f1
