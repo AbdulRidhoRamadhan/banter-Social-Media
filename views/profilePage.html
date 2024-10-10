@@ -11,7 +11,7 @@
 <body class="bg-gray-900">
 
     <!-- navbar -->
-    <header class="bg-white dark:bg-gray-900">
+    <header class="bg-white dark:bg-gray-900 border-b-2 border-gray-200 dark:border-gray-700">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex-1 md:flex md:items-center md:gap-12">
@@ -78,12 +78,12 @@
                             role="menu">
                             <div class="p-2">
                                 <a href="profilePage.html"
-                                    class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+                                    class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700 dark:text-gray-700 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                                     role="menuitem">
                                     My profile
                                 </a>
                                 <a href="#"
-                                    class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+                                    class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700 dark:text-gray-700 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                                     role="menuitem">
                                     Settings
                                 </a>
@@ -122,8 +122,244 @@
                     </script>
                 </div>
             </div>
-        </div>
     </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+
+            <!-- Left Sidebar -->
+            <aside class="md:col-span-1 border-r border-gray-100">
+                <nav class="space-y-2">
+                    <a href="#" class="flex items-center p-2 text-white rounded-lg hover:bg-gray-700">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
+                            </path>
+                        </svg>
+                        Home
+                    </a>
+                    <a href="#" class="flex items-center p-2 text-white rounded-lg hover:bg-gray-700">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        Explore
+                    </a>
+                    <a href="#" class="flex items-center p-2 text-white rounded-lg hover:bg-gray-700">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                            </path>
+                        </svg>
+                        Notifications
+                    </a>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="md:col-span-2 space-y-4">
+                <!-- Post Composition -->
+                <div class="bg-gray-100 text-black p-4 font-sans rounded-lg">
+                    <img src="https://images.unsplash.com/photo-1679027506214-b9e78b7c64dc?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Profile picture" class="w-16 h-16 rounded-full mr-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h1 class="text-xl font-bold">Username</h1>
+
+                    </div>
+                    <p class="text-gray-700 mb-2">@my_username</p>
+                    <p class="mb-2">The perfect account to show to your parents when you want a flex</p>
+                    <div class="flex flex-wrap text-gray-700 text-sm">
+                        <span class="flex items-center mr-4 mb-2">
+                            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                            Gender
+                        </span>
+
+                        <span class="flex items-center mb-2">
+                            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            Joined September 2020
+                        </span>
+
+                    </div>
+                    <div class="flex text-sm mt-2">
+                        <span class="mr-4"><strong>100</strong> Following</span>
+                        <span class="mr-4"><strong>1M</strong> Followers</span>
+                        <span><strong class="text-blue-500">Subscription</strong> </span>
+                    </div>
+                </div>
+
+                <!-- Example Post -->
+                <article class="bg-gray-100 rounded-lg p-4">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1679027506214-b9e78b7c64dc?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Profile picture" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-bold">DummyTest</h3>
+                            <p class="text-gray-700 text-sm">@dummy_test · 2h</p>
+                        </div>
+                    </div>
+                    <div class="w-full pb-[100%] relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1679027506214-b9e78b7c64dc?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Post image" class="absolute top-0 left-0 w-full h-full object-cover">
+                    </div>
+                    <p class="mt-2">This is an example post content. It can be longer and contain multiple lines of
+                        text.</p>
+                    <div class="flex justify-between mt-4 text-gray-700">
+                        <button class="flex items-center space-x-2 hover:text-blue-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                                </path>
+                            </svg>
+                            <span>10</span>
+                        </button>
+                        <button class="flex items-center space-x-2 hover:text-green-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                                </path>
+                            </svg>
+                            <span>5</span>
+                        </button>
+                        <button class="flex items-center space-x-2 hover:text-red-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                                </path>
+                            </svg>
+                            <span>20</span>
+                        </button>
+                        <button class="flex items-center space-x-2 hover:text-blue-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>1.5K</span>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="bg-gray-100 rounded-lg p-4">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1679027506214-b9e78b7c64dc?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Profile picture" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-bold">DummyTest</h3>
+                            <p class="text-gray-700 text-sm">@dummy_test · 2h</p>
+                        </div>
+                    </div>
+                    <div class="w-full pb-[100%] relative overflow-hidden rounded-lg mb-4">
+                        <img src="https://images.unsplash.com/photo-1710705028856-e16098f15620?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Post image" class="absolute top-0 left-0 w-full h-full object-cover">
+                    </div>
+                    <p class="mt-2">This is an example post content. It can be longer and contain multiple lines of
+                        text.</p>
+                    <div class="flex justify-between mt-4 text-gray-700">
+                        <button class="flex items-center space-x-2 hover:text-blue-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                                </path>
+                            </svg>
+                            <span>10</span>
+                        </button>
+                        <button class="flex items-center space-x-2 hover:text-green-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                                </path>
+                            </svg>
+                            <span>5</span>
+                        </button>
+                        <button class="flex items-center space-x-2 hover:text-red-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                                </path>
+                            </svg>
+                            <span>20</span>
+                        </button>
+                        <button class="flex items-center space-x-2 hover:text-blue-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <span>1.5K</span>
+                        </button>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar -->
+            <aside class="md:col-span-1 space-y-4">
+
+                <!-- Searchbar -->
+                <div class='max-w-md mx-auto'>
+                    <div
+                        class="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+                        <div class="grid place-items-center h-full w-12 text-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </div>
+
+                        <input class="peer h-full w-full outline-none text-sm text-gray-700 pr-2" type="text"
+                            id="search" placeholder="Search something.." />
+                    </div>
+                </div>
+                
+                <!-- Subscribe to Premium -->
+                <div class="bg-gray-100 rounded-lg p-4">
+                    <h2 class="font-bold text-xl mb-2">Support Us To Be More Motivated</h2>
+                    <p class="text-gray-700 mb-4">Subscribe <span class="font-bold">".banter"</span> So We Can Eat
+                        Tomorrow, Homie</p>
+                    <button
+                        class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full w-full transition duration-200">Subscribe</button>
+                </div>
+
+                <!-- Trends -->
+                <div class="bg-gray-100 rounded-lg p-4">
+                    <h2 class="font-bold text-xl mb-4">Trends for you</h2>
+                    <ul class="space-y-4">
+                        <li>
+                            <p class="text-gray-700 text-sm">Trending in Indonesia</p>
+                            <p class="font-bold">#TrendingTopic1</p>
+                            <p class="text-gray-700 text-sm">20.7K posts</p>
+                        </li>
+                        <li>
+                            <p class="text-gray-700 text-sm">Trending in Indonesia</p>
+                            <p class="font-bold">#TrendingTopic2</p>
+                            <p class="text-gray-700 text-sm">15.3K posts</p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
 
 </body>
 
